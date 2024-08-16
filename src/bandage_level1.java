@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class bandage_level1 {
+public class    bandage_level1 {
     /*
     * t초 동안 붕대를 감으면 1초마다 x만틈 회복한다
     * t초 연속으로 붕대를 감은거에 성공하면 y만큼 추가로 회복한다.
