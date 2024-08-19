@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e811d17-ffb9-461e-a387-0a6643d5c724" name="Changes" comment="추가2">
+    <list default="true" id="4e811d17-ffb9-461e-a387-0a6643d5c724" name="Changes" comment="데이터 분석(dataanalysis_level1.java) 해결">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bandage_level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bandage_level1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hokoro"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hokoro&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hokoro/codingtestju.git",
-    "accountId": "dfb02f1a-d6bb-40da-958c-5261ba3acca7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hokoro/codingtestju.git&quot;,
+    &quot;accountId&quot;: &quot;dfb02f1a-d6bb-40da-958c-5261ba3acca7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,6 +49,9 @@
     "Application.bandage_level1.executor": "Run",
     "Application.dataanalysis_level1.executor": "Run",
     "Application.manygift_level1.executor": "Run",
+    "Application.personalitytype_level1 (1).executor": "Run",
+    "Application.personalitytype_level1.executor": "Run",
+    "Application.screenclean_level1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -63,14 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.dataanalysis_level1">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="codingtestju" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.screenclean_level1">
     <configuration name="bandage_level1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bandage_level1" />
       <module name="codingtestju" />
@@ -85,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="manygift_level1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="manygift_level1" />
+    <configuration name="personalitytype_level1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personalitytype_level1" />
+      <module name="codingtestju" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="personalitytype_level1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personalitytype_level1" />
+      <module name="codingtestju" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="screenclean_level1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="screenclean_level1" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,10 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.screenclean_level1" />
+        <item itemvalue="Application.personalitytype_level1" />
+        <item itemvalue="Application.personalitytype_level1 (1)" />
         <item itemvalue="Application.dataanalysis_level1" />
         <item itemvalue="Application.bandage_level1" />
-        <item itemvalue="Application.manygift_level1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +130,12 @@
       <workItem from="1723529528602" duration="7419000" />
       <workItem from="1723686711588" duration="10906000" />
       <workItem from="1723700561318" duration="348000" />
-      <workItem from="1723833538280" duration="4811000" />
+      <workItem from="1723833538280" duration="5091000" />
+      <workItem from="1723861880433" duration="1259000" />
+      <workItem from="1723915698730" duration="6926000" />
+      <workItem from="1723959682783" duration="639000" />
+      <workItem from="1723979375860" duration="7878000" />
+      <workItem from="1724036455994" duration="1260000" />
     </task>
     <task id="LOCAL-00001" summary="주금공 대비 프로그래머스 레벨 문제 풀기 &#10;- 가장 많이 받은 선물(manygift_level1.java) &#10;- 붕대감기(bandage_level1.java)">
       <option name="closed" value="true" />
@@ -146,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723700584665</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="데이터 분석(dataanalysis_level1.java) 해결">
+      <option name="closed" value="true" />
+      <created>1723838827879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723838827879</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +179,7 @@
     <MESSAGE value="주금공 대비 프로그래머스 레벨 문제 풀기 &#10;- 가장 많이 받은 선물(manygift_level1.java) &#10;- 붕대감기(bandage_level1.java)" />
     <MESSAGE value="추가" />
     <MESSAGE value="추가2" />
-    <option name="LAST_COMMIT_MESSAGE" value="추가2" />
+    <MESSAGE value="데이터 분석(dataanalysis_level1.java) 해결" />
+    <option name="LAST_COMMIT_MESSAGE" value="데이터 분석(dataanalysis_level1.java) 해결" />
   </component>
 </project>
