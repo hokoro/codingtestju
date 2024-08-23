@@ -10,6 +10,9 @@ public class Knumber {
             ArrayList<Integer> arrayList = new ArrayList<>();
             int start = commands[i][0];
             int end = commands[i][1];
+            /*배열 복사가 이렇게도 가능하다*/
+            int []arr = Arrays.copyOfRange(array , start-1 , end);
+
             for(int j = start-1; j < end; j++){
                 arrayList.add(array[j]);
             }
