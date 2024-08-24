@@ -10,10 +10,10 @@ public class strignsort {
         Arrays.sort(strings, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
-                if(o1.charAt(n) == o2.charAt(n)){
+                if(o1.charAt(n) == o2.charAt(n)){   // edc , abc 처럼 c를 기준으로 볼떄는 사전순 정렬
                     return o1.compareTo(o2);
                 }
-                return Character.compare(o1.charAt(n) , o2.charAt(n));
+                return Character.compare(o1.charAt(n) , o2.charAt(n));  // 그게 아니면 그냥 글자 기준 정렬
             }
         });
 
