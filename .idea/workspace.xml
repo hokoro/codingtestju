@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e811d17-ffb9-461e-a387-0a6643d5c724" name="Changes" comment="네트워크 , 체육복">
+    <list default="true" id="4e811d17-ffb9-461e-a387-0a6643d5c724" name="Changes" comment="캐시">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,12 +53,14 @@
     "Application.abetweenbsum.executor": "Run",
     "Application.absolutesum.executor": "Run",
     "Application.arithmeticsequence.executor": "Run",
+    "Application.arrmultiple.executor": "Run",
     "Application.babbing.executor": "Run",
     "Application.baksubaksu.executor": "Run",
     "Application.bandage_level1.executor": "Run",
     "Application.bestalbum.executor": "Run",
     "Application.bridge.executor": "Run",
     "Application.budget.executor": "Run",
+    "Application.cache.executor": "Run",
     "Application.caesarcipher.executor": "Run",
     "Application.cards.executor": "Debug",
     "Application.carpet.executor": "Run",
@@ -90,8 +92,10 @@
     "Application.integerresever.executor": "Run",
     "Application.integerreverse.executor": "Run",
     "Application.intstringword.executor": "Run",
+    "Application.itemget.executor": "Run",
     "Application.jadencase.executor": "Run",
     "Application.jumpanswarp.executor": "Run",
+    "Application.kdungeons.executor": "Run",
     "Application.kiminseoul.executor": "Debug",
     "Application.knightweapon.executor": "Run",
     "Application.lastchar.executor": "Run",
@@ -143,6 +147,7 @@
     "Application.stringtoint.executor": "Debug",
     "Application.substring.executor": "Run",
     "Application.sumofdivisors.executor": "Run",
+    "Application.targetnumber.executor": "Run",
     "Application.threereverse.executor": "Run",
     "Application.threesumzero.executor": "Run",
     "Application.tonermant.executor": "Run",
@@ -168,37 +173,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.wordchange">
-    <configuration name="mostbignumber (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mostbignumber" />
+  <component name="RunManager" selected="Application.kdungeons">
+    <configuration name="arrmultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrmultiple" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mostbignumber (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mostbignumber" />
+    <configuration name="cache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cache" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mostbignumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mostbignumber" />
+    <configuration name="kdungeons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kdungeons" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="network" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network" />
+    <configuration name="orangeselect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="orangeselect" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wordchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wordchange" />
+    <configuration name="targetnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="targetnumber" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.wordchange" />
-        <item itemvalue="Application.network" />
-        <item itemvalue="Application.mostbignumber" />
-        <item itemvalue="Application.mostbignumber (2)" />
-        <item itemvalue="Application.mostbignumber (1)" />
+        <item itemvalue="Application.kdungeons" />
+        <item itemvalue="Application.cache" />
+        <item itemvalue="Application.arrmultiple" />
+        <item itemvalue="Application.orangeselect" />
+        <item itemvalue="Application.targetnumber" />
       </list>
     </recent_temporary>
   </component>
@@ -242,31 +247,7 @@
       <workItem from="1725008097489" duration="16764000" />
       <workItem from="1725076746734" duration="35504000" />
       <workItem from="1725177263085" duration="7718000" />
-      <workItem from="1725259429947" duration="6640000" />
-    </task>
-    <task id="LOCAL-00030" summary="삼총사">
-      <option name="closed" value="true" />
-      <created>1724383863301</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1724383863301</updated>
-    </task>
-    <task id="LOCAL-00031" summary="최소직사각형">
-      <option name="closed" value="true" />
-      <created>1724390031363</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1724390031363</updated>
-    </task>
-    <task id="LOCAL-00032" summary="시저 암호">
-      <option name="closed" value="true" />
-      <created>1724392219332</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1724392219332</updated>
+      <workItem from="1725259429947" duration="22437000" />
     </task>
     <task id="LOCAL-00033" summary="가장 가까운 암호">
       <option name="closed" value="true" />
@@ -636,7 +617,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725263737694</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="단어 변환">
+      <option name="closed" value="true" />
+      <created>1725266358564</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1725266358564</updated>
+    </task>
+    <task id="LOCAL-00080" summary="귤고르기">
+      <option name="closed" value="true" />
+      <created>1725333458405</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1725333458405</updated>
+    </task>
+    <task id="LOCAL-00081" summary="캐시">
+      <option name="closed" value="true" />
+      <created>1725337638272</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1725337638272</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,9 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="실패율" />
-    <MESSAGE value="로또의 최고순위와 최저순위" />
-    <MESSAGE value="문자열 나누기" />
     <MESSAGE value="완주하지 못한 선수들" />
     <MESSAGE value="최댓값과 최솟값" />
     <MESSAGE value="올바른 괄호" />
@@ -679,6 +681,9 @@
     <MESSAGE value="h-index" />
     <MESSAGE value="가장 큰 숫자" />
     <MESSAGE value="네트워크 , 체육복" />
-    <option name="LAST_COMMIT_MESSAGE" value="네트워크 , 체육복" />
+    <MESSAGE value="단어 변환" />
+    <MESSAGE value="귤고르기" />
+    <MESSAGE value="캐시" />
+    <option name="LAST_COMMIT_MESSAGE" value="캐시" />
   </component>
 </project>
