@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e811d17-ffb9-461e-a387-0a6643d5c724" name="Changes" comment="압력">
+    <list default="true" id="4e811d17-ffb9-461e-a387-0a6643d5c724" name="Changes" comment="뒤에 있는 큰수 찾기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +59,16 @@
     "Application.babbing.executor": "Run",
     "Application.baksubaksu.executor": "Run",
     "Application.bandage_level1.executor": "Run",
+    "Application.behindbignum.executor": "Run",
     "Application.bestalbum.executor": "Run",
+    "Application.betterhot.executor": "Run",
     "Application.bridge.executor": "Run",
     "Application.budget.executor": "Run",
     "Application.cache.executor": "Run",
     "Application.caesarcipher.executor": "Run",
     "Application.cards.executor": "Debug",
     "Application.carpet.executor": "Run",
+    "Application.checklength.executor": "Run",
     "Application.colazguess.executor": "Run",
     "Application.correctparen.executor": "Run",
     "Application.dartgame.executor": "Run",
@@ -138,6 +141,7 @@
     "Application.process.executor": "Run",
     "Application.pycount.executor": "Run",
     "Application.record1.executor": "Run",
+    "Application.rollcake.executor": "Run",
     "Application.scalarproduct.executor": "Run",
     "Application.screenclean_level1.executor": "Run",
     "Application.secretmap.executor": "Run",
@@ -179,16 +183,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.moummdict">
-    <configuration name="KjinsoFindsosu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KjinsoFindsosu" />
+  <component name="RunManager" selected="Application.betterhot">
+    <configuration name="behindbignum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behindbignum" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ngame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ngame" />
+    <configuration name="betterhot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="betterhot" />
+      <module name="codingtestju" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checklength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checklength" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -201,15 +212,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="newsclustring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newsclustring" />
-      <module name="codingtestju" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="press" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="press" />
+    <configuration name="rollcake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rollcake" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.betterhot" />
+        <item itemvalue="Application.checklength" />
+        <item itemvalue="Application.behindbignum" />
+        <item itemvalue="Application.rollcake" />
         <item itemvalue="Application.moummdict" />
-        <item itemvalue="Application.press" />
-        <item itemvalue="Application.KjinsoFindsosu" />
-        <item itemvalue="Application.Ngame" />
-        <item itemvalue="Application.newsclustring" />
       </list>
     </recent_temporary>
   </component>
@@ -254,31 +258,7 @@
       <workItem from="1725076746734" duration="35504000" />
       <workItem from="1725177263085" duration="7718000" />
       <workItem from="1725259429947" duration="33808000" />
-      <workItem from="1725382003021" duration="11430000" />
-    </task>
-    <task id="LOCAL-00039" summary="문자열 내맘대로 정렬하기">
-      <option name="closed" value="true" />
-      <created>1724402144320</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1724402144320</updated>
-    </task>
-    <task id="LOCAL-00040" summary="문자열 내맘대로 정렬하기 보충 설명">
-      <option name="closed" value="true" />
-      <created>1724469749172</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1724469749172</updated>
-    </task>
-    <task id="LOCAL-00041" summary="비밀지도">
-      <option name="closed" value="true" />
-      <created>1724471377683</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1724471377683</updated>
+      <workItem from="1725382003021" duration="23772000" />
     </task>
     <task id="LOCAL-00042" summary="콜라 문제">
       <option name="closed" value="true" />
@@ -648,7 +628,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725509848833</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="모음사전">
+      <option name="closed" value="true" />
+      <created>1725510756300</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1725510756300</updated>
+    </task>
+    <task id="LOCAL-00089" summary="롤케이크">
+      <option name="closed" value="true" />
+      <created>1725512585852</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1725512585852</updated>
+    </task>
+    <task id="LOCAL-00090" summary="뒤에 있는 큰수 찾기">
+      <option name="closed" value="true" />
+      <created>1725516977046</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1725516977046</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,9 +670,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="숫자의 표현" />
-    <MESSAGE value="다음 큰 숫자" />
-    <MESSAGE value="기능개발" />
     <MESSAGE value="프로세스" />
     <MESSAGE value="피보나치수" />
     <MESSAGE value="짝지어 제거하기" />
@@ -691,6 +692,9 @@
     <MESSAGE value="N진수 게임" />
     <MESSAGE value="k진수 소수찾기" />
     <MESSAGE value="압력" />
-    <option name="LAST_COMMIT_MESSAGE" value="압력" />
+    <MESSAGE value="모음사전" />
+    <MESSAGE value="롤케이크" />
+    <MESSAGE value="뒤에 있는 큰수 찾기" />
+    <option name="LAST_COMMIT_MESSAGE" value="뒤에 있는 큰수 찾기" />
   </component>
 </project>
