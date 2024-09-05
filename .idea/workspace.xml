@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e811d17-ffb9-461e-a387-0a6643d5c724" name="Changes" comment="캐시">
+    <list default="true" id="4e811d17-ffb9-461e-a387-0a6643d5c724" name="Changes" comment="압력">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +47,10 @@
   "keyToString": {
     "Application.EvenOdd.executor": "Run",
     "Application.GCDLCM.executor": "Run",
+    "Application.KjinsoFindsosu.executor": "Run",
     "Application.Knumber.executor": "Debug",
     "Application.Main.executor": "Run",
+    "Application.Ngame.executor": "Run",
     "Application.Stringtworemove.executor": "Run",
     "Application.abetweenbsum.executor": "Run",
     "Application.absolutesum.executor": "Run",
@@ -115,8 +117,10 @@
     "Application.mostbignumber (1).executor": "Run",
     "Application.mostbignumber (2).executor": "Run",
     "Application.mostbignumber.executor": "Run",
+    "Application.moummdict.executor": "Run",
     "Application.nLCD.executor": "Run",
     "Application.network.executor": "Run",
+    "Application.newsclustring.executor": "Run",
     "Application.nextbignum.executor": "Run",
     "Application.notexistnumsum.executor": "Run",
     "Application.numberexpression.executor": "Run",
@@ -130,6 +134,7 @@
     "Application.phonebook.executor": "Run",
     "Application.phonecektmon.executor": "Run",
     "Application.phonenumbersecret.executor": "Run",
+    "Application.press.executor": "Run",
     "Application.process.executor": "Run",
     "Application.pycount.executor": "Run",
     "Application.record1.executor": "Run",
@@ -151,6 +156,7 @@
     "Application.threereverse.executor": "Run",
     "Application.threesumzero.executor": "Run",
     "Application.tonermant.executor": "Run",
+    "Application.tuple.executor": "Run",
     "Application.twodarrayplus.executor": "Run",
     "Application.twojinloop.executor": "Run",
     "Application.twonumberplus.executor": "Run",
@@ -173,37 +179,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.kdungeons">
-    <configuration name="arrmultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrmultiple" />
+  <component name="RunManager" selected="Application.moummdict">
+    <configuration name="KjinsoFindsosu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KjinsoFindsosu" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cache" />
+    <configuration name="Ngame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ngame" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kdungeons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kdungeons" />
+    <configuration name="moummdict" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="moummdict" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="orangeselect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orangeselect" />
+    <configuration name="newsclustring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newsclustring" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="targetnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="targetnumber" />
+    <configuration name="press" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="press" />
       <module name="codingtestju" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.kdungeons" />
-        <item itemvalue="Application.cache" />
-        <item itemvalue="Application.arrmultiple" />
-        <item itemvalue="Application.orangeselect" />
-        <item itemvalue="Application.targetnumber" />
+        <item itemvalue="Application.moummdict" />
+        <item itemvalue="Application.press" />
+        <item itemvalue="Application.KjinsoFindsosu" />
+        <item itemvalue="Application.Ngame" />
+        <item itemvalue="Application.newsclustring" />
       </list>
     </recent_temporary>
   </component>
@@ -247,55 +253,8 @@
       <workItem from="1725008097489" duration="16764000" />
       <workItem from="1725076746734" duration="35504000" />
       <workItem from="1725177263085" duration="7718000" />
-      <workItem from="1725259429947" duration="22437000" />
-    </task>
-    <task id="LOCAL-00033" summary="가장 가까운 암호">
-      <option name="closed" value="true" />
-      <created>1724393708196</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1724393708196</updated>
-    </task>
-    <task id="LOCAL-00034" summary="K번째 수">
-      <option name="closed" value="true" />
-      <created>1724395229723</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1724395229723</updated>
-    </task>
-    <task id="LOCAL-00035" summary="K번째 수 추가 해설">
-      <option name="closed" value="true" />
-      <created>1724395326213</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1724395326213</updated>
-    </task>
-    <task id="LOCAL-00036" summary="두 개 뽑아서 더하기">
-      <option name="closed" value="true" />
-      <created>1724396798786</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1724396798786</updated>
-    </task>
-    <task id="LOCAL-00037" summary="숫자 문자열과 영단어">
-      <option name="closed" value="true" />
-      <created>1724398413071</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1724398413071</updated>
-    </task>
-    <task id="LOCAL-00038" summary="푸드파이터 대회">
-      <option name="closed" value="true" />
-      <created>1724399585237</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1724399585237</updated>
+      <workItem from="1725259429947" duration="33808000" />
+      <workItem from="1725382003021" duration="11430000" />
     </task>
     <task id="LOCAL-00039" summary="문자열 내맘대로 정렬하기">
       <option name="closed" value="true" />
@@ -641,7 +600,55 @@
       <option name="project" value="LOCAL" />
       <updated>1725337638272</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="피로도">
+      <option name="closed" value="true" />
+      <created>1725340209308</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1725340209308</updated>
+    </task>
+    <task id="LOCAL-00083" summary="튜플">
+      <option name="closed" value="true" />
+      <created>1725344729070</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1725344729070</updated>
+    </task>
+    <task id="LOCAL-00084" summary="뉴스 클러스터링">
+      <option name="closed" value="true" />
+      <created>1725357702118</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1725357702118</updated>
+    </task>
+    <task id="LOCAL-00085" summary="N진수 게임">
+      <option name="closed" value="true" />
+      <created>1725384190109</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1725384190111</updated>
+    </task>
+    <task id="LOCAL-00086" summary="k진수 소수찾기">
+      <option name="closed" value="true" />
+      <created>1725389034898</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1725389034898</updated>
+    </task>
+    <task id="LOCAL-00087" summary="압력">
+      <option name="closed" value="true" />
+      <created>1725509848833</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1725509848833</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,12 +666,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="완주하지 못한 선수들" />
-    <MESSAGE value="최댓값과 최솟값" />
-    <MESSAGE value="올바른 괄호" />
-    <MESSAGE value="최솟값 만들기" />
-    <MESSAGE value="JadenCase 문자열만들기" />
-    <MESSAGE value="이진변환 반복하기" />
     <MESSAGE value="숫자의 표현" />
     <MESSAGE value="다음 큰 숫자" />
     <MESSAGE value="기능개발" />
@@ -684,6 +685,12 @@
     <MESSAGE value="단어 변환" />
     <MESSAGE value="귤고르기" />
     <MESSAGE value="캐시" />
-    <option name="LAST_COMMIT_MESSAGE" value="캐시" />
+    <MESSAGE value="피로도" />
+    <MESSAGE value="튜플" />
+    <MESSAGE value="뉴스 클러스터링" />
+    <MESSAGE value="N진수 게임" />
+    <MESSAGE value="k진수 소수찾기" />
+    <MESSAGE value="압력" />
+    <option name="LAST_COMMIT_MESSAGE" value="압력" />
   </component>
 </project>
