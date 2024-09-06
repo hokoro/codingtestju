@@ -3,37 +3,45 @@ public class parcelbox {
     public static int solution(int[] order) {
         int answer = 0;
         Stack<Integer> stacks = new Stack<>();// 보조 스택
-        int i = 1;  // 1-2-3-4-5
         int j = 0; // 4-3-1-2-5
-
+        Queue<Integer> queue = new LinkedList<>();
+        for(int k = 0; k < order.length; k++){
+            queue.add(k+1);
+        }
+        int num = queue.remove();
         while(true){
-            if(answer == order.length){
-                break;
-            }
-            if(!stacks.isEmpty()){
-                if(order[j] != i && stacks.peek() != i){
-                    break;
-                }
-            }
-
-            if(order[j] == i){
-                j++;
-                i++;
-                answer++;
-            }else{
-                stacks.add(i);
-                i++;
-                continue;
-            }
-
-            if(!stacks.isEmpty()){
-                if(stacks.peek() == i){
+            if(j < order.length){
+                if(order[j] == num){
+                    j++;
+                    if(!queue.isEmpty()){
+                        num = queue.remove();
+                    }
                     answer++;
-                    i++;
                 }else{
-                    stacks.add(i);
-                    i++;
+                    if(!stacks.isEmpty()){
+                        if(stacks.peek() == order[j]){
+                            j++;
+                            answer++;
+                            stacks.pop();
+                        }else{
+                            if(!queue.isEmpty()){
+                                stacks.push(num);
+                                num = queue.remove();
+                            }else{
+                                break;
+                            }
+                        }
+                    }else{
+                        if(queue.isEmpty()){
+                            break;
+                        }else{
+                            stacks.push(num);
+                            num = queue.remove();
+                        }
+                    }
                 }
+            }else{
+                break;
             }
         }
 
